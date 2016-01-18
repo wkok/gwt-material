@@ -63,6 +63,7 @@ public class FloatRenderer extends AbstractRenderer<Float> {
       return "";
     }
 
-    return NumberFormat.getDecimalFormat().format(object);
+//    return NumberFormat.getDecimalFormat().format(object);
+    return object.toString();
   }
 }
