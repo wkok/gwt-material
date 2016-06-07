@@ -89,10 +89,6 @@ public class MaterialFAB extends MaterialWidget implements HasType<FABType>, Has
         }
     }
 
-    public boolean isToggle() {
-        return toggle;
-    }
-
     @Override
     public void setType(FABType type) {
         typeMixin.setType(type);
